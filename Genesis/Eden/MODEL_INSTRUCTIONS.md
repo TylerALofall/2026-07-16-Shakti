@@ -22,9 +22,10 @@ Read all three before changing anything.
 
 ## CURRENT STATE
 This repository is the clean destination, not the working forge. Existing data
-stays in place. The resident floor, dictionary, dissector, inference engine, and
-gate loop remain outside this clean tree until each submitted file is complete,
-tested, receipted, and signed.
+stays in place. The resident floor, dictionary, inference engine, and gate loop
+remain outside this clean tree until each submitted file is complete, tested,
+receipted, and signed. The first admitted dissector component is the C17 exact
+number-first router in `Shakti_internal_gate_loop/dissector/`.
 
 The old SVG shell generator used a host font instead of the frozen 8x8 glyph
 table and is removed. Do not replace it with a placeholder. Submit a complete
@@ -33,12 +34,27 @@ output are verifiable.
 
 ## CURRENT WORK
 1. Freeze and validate the four-slot tablet schema.
-2. Build the C17 XML validator/converter and calling script.
-3. Make the caller enforce index order, direct prerequisites, and cycle refusal.
-4. Add Level 0 ASCII pre-exposure only after its renderer exists.
-5. Admit Level 1 counting tablets in signed order.
-6. Sign the rule for 11–1000 spans before those stored inferences enter.
-7. Admit Level 2 ABC tablets after their referenced audio carries signal.
+2. Extend the admitted C17 number-first route into deterministic quantity, unit,
+   and question binding.
+3. Convert the built `form|class|infl|base` matrix to sealed const C and return
+   every exact class for ambiguous forms.
+4. Audit the existing Sudoku vocabulary routes and symbol sources before
+   admitting either; counted vocabulary evidence never becomes absolute math.
+5. Make the caller enforce index order, direct prerequisites, and cycle refusal.
+6. Add Level 0 ASCII pre-exposure only after its renderer exists.
+7. Admit Level 1 counting tablets in signed order.
+8. Sign the rule for 11–1000 spans before those stored inferences enter.
+9. Admit Level 2 ABC tablets after their referenced audio carries signal.
+
+## DISSECTION ORDER
+1. Preserve and tokenize the input.
+2. Extract checked digit integers and composed number words 0–99.
+3. Route exact-number plus math evidence to `MATH_CANDIDATE`.
+4. Route numbers without math evidence to `NUMBER_CONTEXT`.
+5. Route input without numbers to `LANGUAGE`.
+6. Hold unsupported numeric forms as unresolved; never split or guess them.
+7. On a math candidate, bind quantities, units, question, and rule before calling
+   absolute arithmetic. The early route never answers by itself.
 
 ## TABLET CONTRACT
 - One tablet is one XML object.

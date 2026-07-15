@@ -6,26 +6,12 @@
     <submitted_by>Codex</submitted_by>
     <date>2026-07-15</date>
     <replaces>EXAMPLE_L1_counting_ones_0001_2026-07-15.xml</replaces>
-    <pull>
-      <file role="sound" name="lvl1_counting_one.wav" path="Genesis/Eden/Sound_artifacts/lvl1_counting_one.wav"/>
-      <file role="visual" name="lvl1_counting_one.svg" path="Genesis/Eden/Visual_Artifacts/lvl1_counting_one.svg"/>
-    </pull>
   </header>
-  <stone token="one" domain="counting">
-    <visual>
-      <render ref="Genesis/Eden/Visual_Artifacts/lvl1_counting_one.svg"/>
-      <examples>one ball</examples>
-    </visual>
-    <sound>
-      <say>one</say>
-      <record ref="Genesis/Eden/Sound_artifacts/lvl1_counting_one.wav"/>
-    </sound>
-    <text>
-      <word tier="2">one</word>
-      <letters tier="1">o n e</letters>
-      <context>one ball is present</context>
-    </text>
-    <bond>counting</bond>
-    <converge token="one"/>
+  <stone token="1" domain="counting">
+    <visual_art/>
+    <audio_art>
+      <file_path>Genesis/Eden/Sound_artifacts/lvl1_counting_one.wav</file_path>
+    </audio_art>
+    <text>one</text>
   </stone>
 </tablet>

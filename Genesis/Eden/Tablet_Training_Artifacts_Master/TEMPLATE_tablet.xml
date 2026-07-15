@@ -1,18 +1,17 @@
-<!-- Copy and rename: L<level>_<title>_<seq4>_<YYYY-MM-DD>.xml
-     Curriculum order belongs only in INDEX_MASTER.xml.
-     Do not add seconds or duration to this tablet. -->
+<!-- Copy and rename: L<level>_<title>_<seq4>_<YYYY-MM-DD>.xml -->
 <tablet>
   <header>
     <title>TITLE_HERE</title>
     <level>LEVEL_INT</level>
-    <prereq>PREREQ_TITLE</prereq>
+    <prereq>DIRECT_PREREQ_TITLE</prereq>
     <submitted_by>WHO</submitted_by>
-    <date>YYYY-MM-DD</date>
-    <replaces>none</replaces>
+    <date_added>YYYY-MM-DD</date_added>
+    <last_modified>YYYY-MM-DD</last_modified>
   </header>
   <stone token="TOKEN" domain="DOMAIN">
+    <visual_text/>
     <visual_art>
-      <file_path>Genesis/Eden/Visual_Artifacts/VISUAL_FILE.svg</file_path>
+      <file_path>Genesis/Eden/Visual_Artifacts/VISUAL_FILE.ext</file_path>
     </visual_art>
     <audio_art>
       <file_path>Genesis/Eden/Sound_artifacts/SOUND_FILE.wav</file_path>

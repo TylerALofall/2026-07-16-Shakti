@@ -56,3 +56,24 @@ Format: `- YYYY-MM-DD | signer | ADDED|MODIFIED|REMOVED | exact path`
 ## GLYPH STORAGE AND ACTUATOR CLARIFICATION
 - 2026-07-15 | Codex | MODIFIED | Genesis/Eden/Tablet_Training_Artifacts_Master/00_READ_FIRST_RULES_AND_LAWS.md
 - 2026-07-15 | Codex | MODIFIED | Genesis/Eden/SIGN_LEDGER.md
+
+## LEGACY STAGING CONVERTER
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/README.md
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/LAWS.md
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/MODEL_INSTRUCTIONS.md
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/SIGN_LEDGER.md
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/Shakti_internal_gate_loop/README.md
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/README.md
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/build_c.bat
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/build_c.sh
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/eden_factor_color.c
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/eden_import_old.c
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/test_c.sh
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/tests/duplicate_pairs.tbl
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/tests/expected_colors.tbl
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/tests/expected_counting.tbl
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/tests/expected_objects.tbl
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/tests/malformed.xml
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/tests/missing_pair.tbl
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/tests/valid_counting.xml
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/tests/valid_pairs.tbl

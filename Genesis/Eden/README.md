@@ -1,54 +1,66 @@
 # GENESIS — EDEN / SHAKTI
 
-## THE MAP (read this first — one line per dir, no excuses)
-- `Genesis/Eden/README.md` — THE DOOR. First AND last act of ANY model: read this, then sign SIGN_LEDGER.md out with every file you added and where.
-- `Genesis/Eden/LAWS.md` — the laws. Binding. Read second.
-- `Genesis/Eden/MODEL_INSTRUCTIONS.md` — current state, files in flight, where to work. Read third.
-- `Genesis/Eden/SIGN_LEDGER.md` — the sign-in/sign-out book. Append-only. Sign or your work does not exist.
-- `Genesis/Eden/Tablet_Training_Artifacts_Master/` — signed tablet XML only: rules file, TEMPLATE, INDEX_MASTER.xml (signed ToC), examples.
-- `Genesis/Eden/Visual_Artifacts/` — pictures. Named `lvl<level>_<series>_<item>.<ext>`. Made by script. Never moved, never dated, one size/type per kind.
-- `Genesis/Eden/Sound_artifacts/` — sounds. EXACT same naming. Signal-verified only. Durations are REAL TIME (the timing law).
-- `Genesis/Eden/Shakti_internal_gate_loop/` — the life loop: 9 slots, gates, reflection. C only.
-- `Genesis/Eden/Shakti_Spirit_instructions/` — MD instruction files: commandments, spirit, prompt chain.
-- `Genesis/Eden/Shakti_Inference/` — converged run outputs, stored at time-of-sound: playback speed = real time. Time is known and respected.
-- `Genesis/Eden/Shakti_Schools_Scores/` — school verdicts and training blocks. Honest scores only.
+## DIRECTORY MAP — READ BEFORE DOING ANYTHING
+- `Genesis/Eden/README.md` — the door: purpose, locations, naming, first and last actions.
+- `Genesis/Eden/LAWS.md` — binding project laws.
+- `Genesis/Eden/MODEL_INSTRUCTIONS.md` — current state and work in progress.
+- `Genesis/Eden/SIGN_LEDGER.md` — append-only record of every exact file added, replaced, or removed.
+- `Genesis/Eden/Tablet_Training_Artifacts_Master/` — tablet rules, exact template, examples, and `INDEX_MASTER.xml`.
+- `Genesis/Eden/Visual_Artifacts/` — permanent undated visual data files.
+- `Genesis/Eden/Sound_artifacts/` — permanent undated sound data files.
+- `Genesis/Eden/Shakti_internal_gate_loop/` — C source for the resident life loop.
+- `Genesis/Eden/Shakti_Spirit_instructions/` — approved Markdown instruction files.
+- `Genesis/Eden/Shakti_Inference/` — stored converged inference records.
+- `Genesis/Eden/Shakti_Schools_Scores/` — school verdicts and receipts.
+
+## THREE FILES EVERY MODEL MUST READ
+1. `Genesis/Eden/README.md`
+2. `Genesis/Eden/LAWS.md`
+3. `Genesis/Eden/MODEL_INSTRUCTIONS.md`
+
+Read all three before creating, changing, moving, or deleting anything.
 
 ## PURPOSE
-This repository is the CLEAN HOUSE. Only correct, complete, submittable files
-enter. It is public to read; writing requires a token (collaborator access).
-The working forge lives in `TylerALofall/Shakti` branch
-`eden-loader-walk-2026-07-13`; what graduates lands HERE, finished.
+This public repository is the clean house. It is not a copy of the working
+forge. Do not bulk-move old project files here. Only correct, complete,
+submittable files enter, one reviewed group at a time.
 
-## THE FIRST AND LAST ACT (binding on every model, every session)
-1. FIRST: read this README, then `LAWS.md`, then `MODEL_INSTRUCTIONS.md`.
-2. WORK: place files ONLY in their proper directory per THE MAP, named per the
-   convention, complete and submittable — no drafts, no scratch, no scripts
-   dumped mid-tree.
-3. LAST: append one entry to `SIGN_LEDGER.md`: date, who you are, every file
-   you added or replaced, and its exact path. Unsigned work does not exist.
+## FIRST AND LAST ACTION
+FIRST: read the three required files above and then read
+`Genesis/Eden/Tablet_Training_Artifacts_Master/00_READ_FIRST_RULES_AND_LAWS.md`.
 
-## NAMING CONVENTION (artifacts)
-`lvl<level>_<series>_<item>.<ext>` — examples: `lvl2_ABCs_Aa.svg`,
-`lvl1_counting_one.wav`. Level-prefixed so files sort in curriculum order and
-a new item is obvious at a glance. The SAME file is referenced by multiple
-levels — it never duplicates, never moves, never carries a date. Pictures and
-videos of an item or series say so in the name. One consistent size and type
-per artifact kind (SVG for cards/glyphs, 16 kHz mono 16-bit WAV for sound).
+LAST: append one line for every exact file added, replaced, or removed to
+`Genesis/Eden/SIGN_LEDGER.md`. Wildcards and directory summaries are refused.
 
-## FILES EVERY MODEL MUST READ (exact paths)
-- `Genesis/Eden/README.md` (this)
-- `Genesis/Eden/LAWS.md`
-- `Genesis/Eden/MODEL_INSTRUCTIONS.md`
-- `Genesis/Eden/Tablet_Training_Artifacts_Master/00_READ_FIRST_RULES_AND_LAWS.md`
-- `Genesis/Eden/Tablet_Training_Artifacts_Master/INDEX_MASTER.xml`
+## ARTIFACT NAMING
+Visual and sound artifacts use the same filename stem:
+`lvl<level>_<series>_<item>.<ext>`.
 
-## THE CONVERGED FORM (where this is going)
-The final stored version of every learned moment is ONE CONVERGED FILE, stored
-at the time of sound: its span equals the true recorded duration, so playback
-speed matches real time. "one" costs ~1 second; "one hundred" costs its true
-length. Time is known, and time is respected — it weighs on everything.
+Examples:
+- `lvl1_counting_one.svg`
+- `lvl1_counting_one.wav`
+- `lvl2_ABCs_Aa.svg`
+
+An artifact may be used by more than one tablet or level. It is referenced in
+place; it is never copied merely because it is used again. Data filenames carry
+no dates. Data files never move after a signed tablet references them.
+
+## TABLETS AND ORDER
+Every tablet is one XML object. It contains its header, repeatable
+prerequisites, exact pull filenames and repository-relative paths, and stones
+using the approved element names. Curriculum order exists only in
+`INDEX_MASTER.xml`; changing one entry's `order` value is the one-line reorder.
+
+## TIMING
+Tablet XML never contains a guessed `seconds` or `duration` value. Timing is
+assigned when the run manifest creates the stored inference.
+
+For the initial Level 1 number concepts, the stored inference span is exact:
+1 is held for 1 second, 2 for 2 seconds, through 10 for 10 seconds. Audio plays
+at its real playback speed inside that span. A signed rule must define later
+counting timing before stored inferences for 11–1000 are admitted.
 
 ## ABSOLUTE
-NO PYTHON. Not for generation, not for moving files, not for editing, not for
-tests, not "just this once." POSIX shell + C only. Any file produced by python
-is refused at the door.
+NO PYTHON. Do not generate, edit, test, rename, or move Eden files with Python.
+Use inspectable C and the approved shell build entry only.
+

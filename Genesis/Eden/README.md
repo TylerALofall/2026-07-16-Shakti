@@ -4,79 +4,75 @@
 - `Genesis/Eden/README.md` — the door: purpose, locations, naming, first and last actions.
 - `Genesis/Eden/LAWS.md` — binding project laws.
 - `Genesis/Eden/MODEL_INSTRUCTIONS.md` — current state and work in progress.
-- `Genesis/Eden/SIGN_LEDGER.md` — append-only record of every exact file added, replaced, or removed.
-- `Genesis/Eden/Tablet_Training_Artifacts_Master/` — tablet rules, exact template, examples, and `INDEX_MASTER.xml`.
+- `Genesis/Eden/SIGN_LEDGER.md` — one signed line for every exact path added, modified, or removed.
+- `Genesis/Eden/Tablet_Training_Artifacts_Master/` — tablet rules, template, examples, and `INDEX_MASTER.xml`.
 - `Genesis/Eden/Visual_Artifacts/` — permanent undated visual data files.
 - `Genesis/Eden/Sound_artifacts/` — permanent undated sound data files.
-- `Genesis/Eden/Shakti_internal_gate_loop/` — C source for the resident life loop.
-- `Genesis/Eden/Shakti_Spirit_instructions/` — approved Markdown instruction files.
+- `Genesis/Eden/Shakti_internal_gate_loop/` — C source for the resident gate loop.
+- `Genesis/Eden/Shakti_Spirit_instructions/` — approved Markdown instructions.
 - `Genesis/Eden/Shakti_Inference/` — stored converged inference records.
-- `Genesis/Eden/Shakti_Schools_Scores/` — school verdicts and receipts.
+- `Genesis/Eden/Shakti_Schools_Scores/` — school results and receipts.
 
 ## THREE FILES EVERY MODEL MUST READ
 1. `Genesis/Eden/README.md`
 2. `Genesis/Eden/LAWS.md`
 3. `Genesis/Eden/MODEL_INSTRUCTIONS.md`
 
-Read all three before creating, changing, moving, or deleting anything.
+Read all three before changing anything.
 
 ## PURPOSE
-This public repository is the clean house. It is not a copy of the working
-forge. Do not bulk-move old project files here. Only correct, complete,
-submittable files enter, one reviewed group at a time.
+This public repository is the clean house, not a copy of the working forge.
+Only correct, complete, reviewable files enter. Do not bulk-import the old tree.
 
 ## FIRST AND LAST ACTION
-FIRST: read the three required files above and then read
+FIRST: read the three required files and
 `Genesis/Eden/Tablet_Training_Artifacts_Master/00_READ_FIRST_RULES_AND_LAWS.md`.
 
-LAST: append one line for every exact file added, replaced, or removed to
-`Genesis/Eden/SIGN_LEDGER.md`. Wildcards and directory summaries are refused.
+LAST: add one exact-path line to `Genesis/Eden/SIGN_LEDGER.md` for every file
+added, modified, or removed. Do not use wildcards.
 
 ## ARTIFACT NAMING
-Visual and sound artifacts use the same filename stem:
-`lvl<level>_<series>_<item>.<ext>`.
+Visual and sound data use `lvl<level>_<series>_<item>.<ext>` and the same stem
+for the same item. Data names carry no dates. A signed data path never moves.
 
-Examples:
-- `lvl1_counting_one.svg`
-- `lvl1_counting_one.wav`
-- `lvl2_ABCs_Aa.svg`
+Examples: `lvl1_counting_one.svg`, `lvl1_counting_one.wav`, `lvl2_ABCs_Aa.svg`.
 
-An artifact may be used by more than one tablet or level. It is referenced in
-place; it is never copied merely because it is used again. Data filenames carry
-no dates. Data files never move after a signed tablet references them.
+## TABLETS, PREREQUISITES, AND ORDER
+Each tablet is one XML object. XML declares only the tablet's direct relevant
+prerequisites. It does not schedule training, repetition, or practice. The
+calling script reads `INDEX_MASTER.xml`, follows prerequisite titles, refuses
+missing prerequisites or cycles, and calls tablets in the resulting order.
 
-## TABLETS AND ORDER
-Every tablet is one XML object. Its header holds identity, optional repeatable
-prerequisites, and signing. Every stone contains exactly `visual_art`,
-`audio_art`, and `text`. An artifact contains one `file_path`; that value is the
-complete repository-relative filename and location. There is no duplicate pull
-list. The build creates the run manifest from the stones.
+Each stone has four fixed load positions, in this order:
 
-Curriculum order exists only in `INDEX_MASTER.xml`; changing one entry's
-`order` value is the one-line reorder.
+1. `visual_text` — generated from the stone by the frozen 8x8 glyph renderer.
+2. `visual_art` — optional real picture.
+3. `audio_art` — optional recording.
+4. `text` — exact symbols or words.
 
-## ROOT TEACHING VISUALS
-Level 0 is a fast ASCII pre-exposure run, not a grounding prerequisite.
-Counting and ABC tablets establish the first ground and may omit `<prereq>`.
-Later grounded tablets must name their signed prerequisites.
+An optional slot stays present as an empty element. A nonempty artifact contains
+one `file_path`: the complete repository-relative filename and location. The
+fixed C enum is defined once in the tablet rules; no tablet repeats an enum.
 
-An empty `<visual_art/>` invokes the deterministic resident renderer:
-- counting shows the numeral, word, quoted word, and exact count marks;
-- ABCs show the uppercase and lowercase 8x8 glyphs;
-- other text shows the word composed from the frozen 8x8 alphabet.
+Tablet headers use `date_added` and `last_modified`. Correct a tablet in place,
+update `last_modified`, update its index entry, and sign the exact path.
 
-A real picture is added by placing its exact path in
-`<visual_art><file_path>...</file_path></visual_art>`. Text remains present.
+## ROOTS AND VISUAL TEXT
+Level 0 is fast ASCII 32–127 pre-exposure, not a prerequisite. Level 1 is
+counting 1–1000. Level 2 is ABCs. Counting and ABC tablets may have no
+prerequisite because they establish the first ground.
+
+For counting, `visual_text` shows numeral, word, quoted word, and exact marks.
+Marks fill left-to-right in rows of ten; ten rows make a hundred square. For
+ABCs it shows uppercase and lowercase glyphs. Other tablets render their text
+as a sequence of frozen `uint64_t` 8x8 glyphs.
 
 ## TIMING
-Tablet XML never contains a guessed `seconds` or `duration` value. Timing is
-assigned when the run manifest creates the stored inference.
-
-For the initial Level 1 number concepts, the stored inference span is exact:
-1 is held for 1 second, 2 for 2 seconds, through 10 for 10 seconds. Audio plays
-at its real playback speed inside that span. A signed rule must define later
-counting timing before stored inferences for 11–1000 are admitted.
+Tablets contain no timing fields. The calling script assigns the stored span.
+For initial Level 1 concepts, 1 is held for 1 second through 10 for 10 seconds.
+Audio plays at its recorded speed inside that span. A signed rule is required
+before stored inferences for 11–1000 enter.
 
 ## ABSOLUTE
 NO PYTHON. Do not generate, edit, test, rename, or move Eden files with Python.
-Use inspectable C and the approved shell build entry only.
+Use inspectable C17 and approved shell build entrypoints.

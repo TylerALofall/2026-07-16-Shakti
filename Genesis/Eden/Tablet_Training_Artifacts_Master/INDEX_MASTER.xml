@@ -1,0 +1,10 @@
+<!-- INDEX_MASTER.xml : THE signed table of contents. Exact name, never varies.
+     Curriculum order lives HERE and only here; reordering = one line.
+     Every entry is signed: submitted_by + date + replaces (or none).
+     Slotted entries are never edited; corrections are new files that name
+     what they replace. -->
+<index_master established="2026-07-15" founder="Tyler">
+  <entry order="0000" level="0" file="(pending: L0_ascii_pass tablets)" submitted_by="Tyler" date="2026-07-15" replaces="none"/>
+  <entry order="0001" level="1" file="EXAMPLE_L1_counting_ones_0001_2026-07-15.xml" submitted_by="Claude-Fable-5" date="2026-07-15" replaces="none"/>
+  <entry order="0002" level="2" file="EXAMPLE_L2_alphabet_a_0001_2026-07-15.xml" submitted_by="Claude-Fable-5" date="2026-07-15" replaces="none"/>
+</index_master>

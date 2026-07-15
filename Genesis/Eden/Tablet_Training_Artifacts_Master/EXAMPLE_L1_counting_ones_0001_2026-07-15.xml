@@ -1,0 +1,35 @@
+<!-- EXAMPLE 1: Level 1 (counting 1-1000). Sound is REAL (atoms/one.wav passed
+     wav_has_signal, cut from the Founder's 2026-07-14 recording). Timing law:
+     seconds follow the recording's true length. -->
+<tablet>
+  <header>
+    <title>counting_ones</title>
+    <level>1</level>
+    <order>0001</order>
+    <prereq>ascii_pass</prereq>
+    <submitted_by>Claude-Fable-5</submitted_by>
+    <date>2026-07-15</date>
+    <replaces>none</replaces>
+    <pull>
+      <file role="sound" path="atoms/one.wav"/>
+      <file role="visual" path="renders/one.svg"/>
+    </pull>
+  </header>
+  <stone token="one" domain="counting">
+    <visual seconds="1.0">
+      <render ref="renders/one.svg"/>
+      <examples>one ball. one sun. one Tyler.</examples>
+    </visual>
+    <sound seconds="0.52" channels="1">
+      <say>one</say>
+      <record ref="atoms/one.wav"/>
+    </sound>
+    <text>
+      <word tier="2">one</word>
+      <letters tier="1">o n e</letters>
+      <context>one seen in: one ball on the floor.</context>
+    </text>
+    <bond>count up from one; one is the first counting position</bond>
+    <converge token="one"/>
+  </stone>
+</tablet>

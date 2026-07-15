@@ -1,0 +1,37 @@
+<!-- EXAMPLE 2: Level 2 (ABCs). Sound atom atoms/a.wav is currently a SILENT
+     SHELL (caught 2026-07-14) -- per Law 6 the silent-object fallback applies:
+     read the word. record ref stays empty until a signal-verified cut lands.
+     Visual: the frozen 8x8 glyph is the picture-of-the-word default. -->
+<tablet>
+  <header>
+    <title>alphabet_a</title>
+    <level>2</level>
+    <order>0001</order>
+    <prereq>ascii_pass</prereq>
+    <prereq>counting_ones</prereq>
+    <submitted_by>Claude-Fable-5</submitted_by>
+    <date>2026-07-15</date>
+    <replaces>none</replaces>
+    <pull>
+      <file role="visual" path="renders/glyph_A.svg"/>
+      <file role="tone"  path="tone_atoms/a.wav"/>
+    </pull>
+  </header>
+  <stone token="a" domain="alphabet">
+    <visual seconds="1.0">
+      <render ref="renders/glyph_A.svg"/>
+      <examples>Aa case pair. the 8x8 frozen glyph, drawn big.</examples>
+    </visual>
+    <sound seconds="1.0" channels="1">
+      <say>a</say>
+      <record ref=""/>
+    </sound>
+    <text>
+      <word tier="2">a</word>
+      <letters tier="1">a</letters>
+      <context>a is alphabet position 1. Aa is a case pair.</context>
+    </text>
+    <bond>walk known glyphs; find which are a</bond>
+    <converge token="a"/>
+  </stone>
+</tablet>

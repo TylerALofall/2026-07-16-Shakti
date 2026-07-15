@@ -1,0 +1,34 @@
+<!-- TEMPLATE: copy, fill, rename per convention L<level>_<title>_<seq4>_<YYYY-MM-DD>.xml
+     Then add ONE signed line to INDEX_MASTER.xml. Never edit a slotted tablet. -->
+<tablet>
+  <header>
+    <title>TITLE_HERE</title>
+    <level>LEVEL_INT</level>
+    <order>SEQ4</order>
+    <prereq>PREREQ_TITLE</prereq>
+    <submitted_by>WHO</submitted_by>
+    <date>YYYY-MM-DD</date>
+    <replaces>none</replaces>
+    <pull>
+      <file role="sound" path="atoms/WORD.wav"/>
+      <file role="visual" path="renders/WORD.svg"/>
+    </pull>
+  </header>
+  <stone token="WORD" domain="DOMAIN">
+    <visual seconds="1.0">
+      <render ref="renders/WORD.svg"/>
+      <examples></examples>
+    </visual>
+    <sound seconds="1.0" channels="1">
+      <say>WORD</say>
+      <record ref="atoms/WORD.wav"/>
+    </sound>
+    <text>
+      <word tier="2">WORD</word>
+      <letters tier="1">W O R D</letters>
+      <context></context>
+    </text>
+    <bond></bond>
+    <converge token="WORD"/>
+  </stone>
+</tablet>

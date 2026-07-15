@@ -58,6 +58,13 @@ this slot," not a shifted index.
 8x8 `uint64_t`; a word is an ordered glyph sequence. It never depends on the
 host's installed fonts.
 
+Storage, display, and actuator copying are separate operations over the same
+bits. Bit position `row * 8 + column` is `1` for a filled square and `0` for a
+blank square. The display renders those bits. In a copy lesson, the actuator
+visits rows 0–7 and columns 0–7 in order and marks the `1` positions. This is an
+exact raster copy, not a claim about human pen-stroke order. Stroke-order
+lessons require their own signed data and are never guessed from the bitmap.
+
 For counting domain token `n`, show numeral, word, quoted word, and exactly `n`
 marks. Marks fill left-to-right in rows of ten. Ten rows make a hundred square.
 Above 100, reuse completed squares plus the active square. Compute positions as

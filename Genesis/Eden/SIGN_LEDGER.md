@@ -77,3 +77,16 @@ Format: `- YYYY-MM-DD | signer | ADDED|MODIFIED|REMOVED | exact path`
 - 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/tests/missing_pair.tbl
 - 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/tests/valid_counting.xml
 - 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/converter/tests/valid_pairs.tbl
+
+## EXACT NUMBER-FIRST DISSECTOR
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/MODEL_INSTRUCTIONS.md
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/SIGN_LEDGER.md
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/Shakti_internal_gate_loop/README.md
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/README.md
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/build_c.bat
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/build_c.sh
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/eden_number_demo.c
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/eden_number_lexer.c
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/eden_number_lexer.h
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/test_c.sh
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/test_number_lexer.c

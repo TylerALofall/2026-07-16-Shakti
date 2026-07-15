@@ -8,7 +8,7 @@
 - `Genesis/Eden/Tablet_Training_Artifacts_Master/` — tablet rules, template, examples, and `INDEX_MASTER.xml`.
 - `Genesis/Eden/Visual_Artifacts/` — permanent undated visual data files.
 - `Genesis/Eden/Sound_artifacts/` — permanent undated sound data files.
-- `Genesis/Eden/Shakti_internal_gate_loop/` — C source for the resident gate loop.
+- `Genesis/Eden/Shakti_internal_gate_loop/` — C17 runtime gate and build-time conversion tools.
 - `Genesis/Eden/Shakti_Spirit_instructions/` — approved Markdown instructions.
 - `Genesis/Eden/Shakti_Inference/` — stored converged inference records.
 - `Genesis/Eden/Shakti_Schools_Scores/` — school results and receipts.

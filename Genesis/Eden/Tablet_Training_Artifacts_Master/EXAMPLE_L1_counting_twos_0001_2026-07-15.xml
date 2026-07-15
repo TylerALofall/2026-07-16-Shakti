@@ -6,27 +6,12 @@
     <submitted_by>Codex</submitted_by>
     <date>2026-07-15</date>
     <replaces>none</replaces>
-    <pull>
-      <file role="sound" name="lvl1_counting_two.wav" path="Genesis/Eden/Sound_artifacts/lvl1_counting_two.wav"/>
-      <file role="visual" name="lvl1_counting_two.svg" path="Genesis/Eden/Visual_Artifacts/lvl1_counting_two.svg"/>
-    </pull>
   </header>
-  <stone token="two" domain="counting">
-    <visual>
-      <render ref="Genesis/Eden/Visual_Artifacts/lvl1_counting_two.svg"/>
-      <examples>two balls</examples>
-    </visual>
-    <sound>
-      <say>two</say>
-      <record ref="Genesis/Eden/Sound_artifacts/lvl1_counting_two.wav"/>
-    </sound>
-    <text>
-      <word tier="2">two</word>
-      <letters tier="1">t w o</letters>
-      <context>two balls are present</context>
-    </text>
-    <bond>counting</bond>
-    <converge token="two"/>
+  <stone token="2" domain="counting">
+    <visual_art/>
+    <audio_art>
+      <file_path>Genesis/Eden/Sound_artifacts/lvl1_counting_two.wav</file_path>
+    </audio_art>
+    <text>two</text>
   </stone>
 </tablet>
-

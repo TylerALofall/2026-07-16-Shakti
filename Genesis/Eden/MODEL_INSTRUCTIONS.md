@@ -1,47 +1,56 @@
 # MODEL INSTRUCTIONS — CURRENT STATE
 
-## THE MAP (read this first — one line per dir, no excuses)
-- `Genesis/Eden/README.md` — THE DOOR. First AND last act of ANY model: read this, then sign SIGN_LEDGER.md out with every file you added and where.
-- `Genesis/Eden/LAWS.md` — the laws. Binding. Read second.
-- `Genesis/Eden/MODEL_INSTRUCTIONS.md` — current state, files in flight, where to work. Read third.
-- `Genesis/Eden/SIGN_LEDGER.md` — the sign-in/sign-out book. Append-only. Sign or your work does not exist.
-- `Genesis/Eden/Tablet_Training_Artifacts_Master/` — signed tablet XML only: rules file, TEMPLATE, INDEX_MASTER.xml (signed ToC), examples.
-- `Genesis/Eden/Visual_Artifacts/` — pictures. Named `lvl<level>_<series>_<item>.<ext>`. Made by script. Never moved, never dated, one size/type per kind.
-- `Genesis/Eden/Sound_artifacts/` — sounds. EXACT same naming. Signal-verified only. Durations are REAL TIME (the timing law).
-- `Genesis/Eden/Shakti_internal_gate_loop/` — the life loop: 9 slots, gates, reflection. C only.
-- `Genesis/Eden/Shakti_Spirit_instructions/` — MD instruction files: commandments, spirit, prompt chain.
-- `Genesis/Eden/Shakti_Inference/` — converged run outputs, stored at time-of-sound: playback speed = real time. Time is known and respected.
-- `Genesis/Eden/Shakti_Schools_Scores/` — school verdicts and training blocks. Honest scores only.
+## DIRECTORY MAP — READ BEFORE DOING ANYTHING
+- `Genesis/Eden/README.md` — the door: purpose, locations, naming, first and last actions.
+- `Genesis/Eden/LAWS.md` — binding project laws.
+- `Genesis/Eden/MODEL_INSTRUCTIONS.md` — current state and work in progress.
+- `Genesis/Eden/SIGN_LEDGER.md` — append-only record of every exact file added, replaced, or removed.
+- `Genesis/Eden/Tablet_Training_Artifacts_Master/` — tablet rules, exact template, examples, and `INDEX_MASTER.xml`.
+- `Genesis/Eden/Visual_Artifacts/` — permanent undated visual data files.
+- `Genesis/Eden/Sound_artifacts/` — permanent undated sound data files.
+- `Genesis/Eden/Shakti_internal_gate_loop/` — C source for the resident life loop.
+- `Genesis/Eden/Shakti_Spirit_instructions/` — approved Markdown instruction files.
+- `Genesis/Eden/Shakti_Inference/` — stored converged inference records.
+- `Genesis/Eden/Shakti_Schools_Scores/` — school verdicts and receipts.
 
-## WHERE WE ARE (2026-07-16)
-The forge is `TylerALofall/Shakti`, branch `eden-loader-walk-2026-07-13`.
-Built and receipted there: the resident floor (25,940 tri-sense stones), the
-life loop (9 slots, notes, menus, Tyler messages, forced reflection), school
-as a turn (3 loops; loop 2 demands per-key tri-sense with SIGNAL), the Hebbian
-cell + one append-only ledger (eden_cell.c: SenseCell{token,hz,glyph}, counted
-wins, AMBIGUOUS never guesses), the mic organ v0 (WAV -> chunk walk -> loudest
-window -> zero-crossings -> Hz int), the floor census (all 25,940 walked,
-verdicts stored), the dictionary matrix (164,554 precomputed forms from
-Webster's own tags, zero runtime rules), and the question dissector
-(NUM/SYM/class atoms; $ grounded never stripped; unknowns held).
+## THREE FILES EVERY MODEL MUST READ
+1. `Genesis/Eden/README.md`
+2. `Genesis/Eden/LAWS.md`
+3. `Genesis/Eden/MODEL_INSTRUCTIONS.md`
 
-## FILES IN FLIGHT (the forge)
-- a-z + word-atom sounds: await re-cut from the Founder's 2026-07-16 recording
-  (alphabet region blurred; his ear or count-constrained segmentation; the old
-  59 letter atoms are SILENT SHELLS — banned from this repo).
-- Names/places/formulas master tables: next closed shelves.
-- The XML -> const-C converter (freeze road): spec'd, not built.
-- Non-Contradiction verdicts (S/s/C) wiring into census + cell.
+Read all three before creating, changing, moving, or deleting anything.
 
-## WHAT GRADUATES HERE
-Only finished, signed, law-clean files: tablets into
-Tablet_Training_Artifacts_Master (with an INDEX_MASTER.xml signature),
-artifacts into Visual_Artifacts / Sound_artifacts via the generator script,
-loop C into Shakti_internal_gate_loop, MD instruction files into
-Shakti_Spirit_instructions, converged real-time runs into Shakti_Inference,
-honest verdicts into Shakti_Schools_Scores.
+## CURRENT PUBLIC-REPOSITORY STATE
+This repository is the clean destination, not the working forge. Do not import
+the older project tree. Existing permanent data stays in its current visual and
+sound directories. Governance and tablet-contract corrections are handled
+before additional curriculum files are admitted.
 
-## POINTERS (read them, in this order)
-1. `Genesis/Eden/README.md` 2. `Genesis/Eden/LAWS.md` 3. this file
-4. `Genesis/Eden/Tablet_Training_Artifacts_Master/00_READ_FIRST_RULES_AND_LAWS.md`
-Then sign `Genesis/Eden/SIGN_LEDGER.md` on your way out — first and last act.
+The resident floor, dictionary matrix, question dissector, inference work, and
+life-loop work remain in the forge until each graduating file is complete,
+receipted, and signed for this repository.
+
+## CURRENT WORK
+1. Correct and freeze the tablet rules, template, examples, and index.
+2. Build the C XML-to-const-C validator/converter.
+3. Admit Level 0 ASCII tablets only after their required artifacts exist.
+4. Admit Level 1 counting tablets in signed order.
+5. Define and sign timing for 11–1000 before those stored inferences enter.
+6. Admit Level 2 ABC tablets only after their required artifacts contain signal.
+
+## TABLET CONTRACT
+- One tablet is one XML object.
+- The tablet header contains title, level, repeatable prerequisites, submitter, date, replacement, and the complete pull list.
+- Every pull gives both filename and exact repository-relative path.
+- Tablet headers contain no curriculum order and no duration.
+- `INDEX_MASTER.xml` is the sole curriculum order.
+- The run manifest assigns stored-inference timing and selects the resident artifacts.
+
+## BEFORE WORK
+Read the three mandatory files and
+`Genesis/Eden/Tablet_Training_Artifacts_Master/00_READ_FIRST_RULES_AND_LAWS.md`.
+
+## AFTER WORK
+Append one line per exact added, replaced, or removed path to
+`Genesis/Eden/SIGN_LEDGER.md`. Do not use wildcards or grouped directory names.
+

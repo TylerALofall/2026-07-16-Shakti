@@ -1,0 +1,32 @@
+<!-- Complete schema example. It is not active curriculum until Tyler signs an active index entry. -->
+<tablet>
+  <header>
+    <title>counting_twos</title>
+    <level>1</level>
+    <submitted_by>Codex</submitted_by>
+    <date>2026-07-15</date>
+    <replaces>none</replaces>
+    <pull>
+      <file role="sound" name="lvl1_counting_two.wav" path="Genesis/Eden/Sound_artifacts/lvl1_counting_two.wav"/>
+      <file role="visual" name="lvl1_counting_two.svg" path="Genesis/Eden/Visual_Artifacts/lvl1_counting_two.svg"/>
+    </pull>
+  </header>
+  <stone token="two" domain="counting">
+    <visual>
+      <render ref="Genesis/Eden/Visual_Artifacts/lvl1_counting_two.svg"/>
+      <examples>two balls</examples>
+    </visual>
+    <sound>
+      <say>two</say>
+      <record ref="Genesis/Eden/Sound_artifacts/lvl1_counting_two.wav"/>
+    </sound>
+    <text>
+      <word tier="2">two</word>
+      <letters tier="1">t w o</letters>
+      <context>two balls are present</context>
+    </text>
+    <bond>counting</bond>
+    <converge token="two"/>
+  </stone>
+</tablet>
+

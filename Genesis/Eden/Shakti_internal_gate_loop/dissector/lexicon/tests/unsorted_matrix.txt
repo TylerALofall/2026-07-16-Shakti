@@ -1,0 +1,2 @@
+clip|verb_form|present|clip
+clip|noun||clip

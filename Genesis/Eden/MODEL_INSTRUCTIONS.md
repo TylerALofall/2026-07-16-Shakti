@@ -36,8 +36,9 @@ output are verifiable.
 1. Freeze and validate the four-slot tablet schema.
 2. Extend the admitted C17 number-first route into deterministic quantity, unit,
    and question binding.
-3. Convert the built `form|class|infl|base` matrix to sealed const C and return
-   every exact class for ambiguous forms.
+3. Supply and receipt the missing full `ground_matrix.txt`; the admitted C17
+   converter and resident lookup are ready to freeze it and return every exact
+   class for ambiguous forms.
 4. Audit the existing Sudoku vocabulary routes and symbol sources before
    admitting either; counted vocabulary evidence never becomes absolute math.
 5. Make the caller enforce index order, direct prerequisites, and cycle refusal.
@@ -55,6 +56,15 @@ output are verifiable.
 6. Hold unsupported numeric forms as unresolved; never split or guess them.
 7. On a math candidate, bind quantities, units, question, and rule before calling
    absolute arithmetic. The early route never answers by itself.
+
+## RELATIONSHIP LAW
+- Runtime code is C17 with fixed storage: no COM, daemon, subprocess, or heap.
+- Word identity is exact text in the sealed lexicon; lookup returns every row.
+- Hard relationships are computed from class columns, token position, closed
+  grammar rules, units, and exact formulas. Never store a growing word-to-word
+  edge list.
+- A word-operation association is counted vocabulary evidence, never absolute
+  math. An unresolved or contradictory binding remains UNKNOWN.
 
 ## TABLET CONTRACT
 - One tablet is one XML object.

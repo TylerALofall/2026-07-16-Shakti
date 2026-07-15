@@ -40,11 +40,21 @@ receipted, and signed for this repository.
 
 ## TABLET CONTRACT
 - One tablet is one XML object.
-- The tablet header contains title, level, repeatable prerequisites, submitter, date, replacement, and the complete pull list.
-- Every pull gives both filename and exact repository-relative path.
+- The tablet header contains title, level, optional repeatable prerequisites, submitter, date, and replacement.
+- Every stone contains exactly `visual_art`, `audio_art`, and `text`.
+- A nonempty artifact contains one `file_path`, which is the complete repository-relative filename and location.
+- Empty `visual_art` deterministically renders `text`; empty `audio_art` reads `text` from approved resident atoms.
+- Counting and ABC tablets may omit prerequisites because they establish the first ground. Later grounded tablets must name signed prerequisites.
 - Tablet headers contain no curriculum order and no duration.
 - `INDEX_MASTER.xml` is the sole curriculum order.
-- The run manifest assigns stored-inference timing and selects the resident artifacts.
+- The build derives the run manifest from each stone and assigns stored-inference timing.
+
+## COUNTING VISUAL
+The counting renderer shows numeral, word, quoted word, and exact count marks.
+Marks fill rows of ten; ten rows make one hundred square. Values above 100 reuse
+completed squares plus the active square. Do not create a stored picture for
+every number. `uint64_t` stores each 8x8 letter; the 10x10 count arrangement is
+computed from the number.
 
 ## BEFORE WORK
 Read the three mandatory files and
@@ -53,4 +63,3 @@ Read the three mandatory files and
 ## AFTER WORK
 Append one line per exact added, replaced, or removed path to
 `Genesis/Eden/SIGN_LEDGER.md`. Do not use wildcards or grouped directory names.
-

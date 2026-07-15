@@ -26,17 +26,17 @@ Read all three before creating, changing, moving, or deleting anything.
 4. **NO MANUAL NEIGHBOR LISTS.** Classification joins compute reuse and relationships; do not store an attempted all-to-all link graph.
 5. **CLEAN HOUSE.** Do not bulk-import the old forge. Only correct, complete, submittable files enter.
 6. **DATA IS PERMANENT.** Signed data files never move and carry no dates. Corrections receive a new file and a signed replacement entry.
-7. **ONE TABLET, ONE OBJECT.** A tablet contains its header, repeatable prerequisites, pull list, and consistently named stones.
+7. **ONE TABLET, ONE OBJECT.** A tablet contains its signed header and stones. Every stone contains exactly `visual_art`, `audio_art`, and `text`.
 8. **ONE-LINE ORDER.** Curriculum order exists only in `INDEX_MASTER.xml`, never in a tablet header or filename.
 9. **SIGNED INDEX.** Every active entry names the exact file, submitter, date, and replaced file or `none`. Pending files never enter the active index.
-10. **EXACT PULLS.** Every pull names the data filename and exact repository-relative path. Missing and empty references are refused.
-11. **SILENT OBJECTS READ THE WORD.** The approved reading artifacts are named in the pull list; an empty sound reference is not a completed tablet.
-12. **DEFAULT PICTURE.** The default visual is the word rendered from the approved frozen 8x8 letters. Freestyle writing belongs to her own memory region.
-13. **CONVERGENCE.** The run manifest presents the selected visual, sound, and text as one moment. Background information does not become a contradiction merely because it is not about the focus.
+10. **ONE PATH FACT.** `file_path` is the complete repository-relative filename and location. Never duplicate it as separate `name`, `path`, pull, render, or record fields.
+11. **DETERMINISTIC FALLBACKS.** Empty `visual_art` renders `text` from resident 8x8 glyphs. Empty `audio_art` reads `text` using approved resident sound atoms. A nonempty artifact contains exactly one `file_path`.
+12. **DEFAULT PICTURE.** Counting renders numeral, word, quoted word, and exact count marks. ABCs render uppercase and lowercase 8x8 glyphs. Other text renders the word from the frozen 8x8 alphabet. Real pictures may be added later through `visual_art`.
+13. **CONVERGENCE.** The build derives the run manifest from `visual_art`, `audio_art`, and `text`, and presents them as one moment. Background information does not become a contradiction merely because it is not about the focus.
 14. **TIMING.** Tablet XML contains no authored `seconds` or `duration`. Stored Level 1 inferences for 1–10 use exact spans of 1–10 seconds respectively; audio remains at real playback speed inside the span. Timing for 11–1000 requires a later signed rule.
-15. **LEVELS.** Level 0 is ASCII codes 32–127 inclusive: 32 is SPACE, 33–126 are visible characters, and 127 is DEL with no visible glyph. Level 1 is counting 1–1000. Level 2 is ABCs.
-16. **TRUTH VALUES.** Answers are TRUE, FALSE, or UNKNOWN. UNKNOWN is held and names what is missing.
-17. **AUDIO REFERENCES MUST CONTAIN SIGNAL.** Every referenced WAV passes the approved signal check before admission.
-18. **RECEIPTS.** Claims require stored, inspectable output. A green mark or successful compile alone is not a receipt.
-19. **FIRST AND LAST.** First read the three mandatory files. Last sign every exact changed path in `SIGN_LEDGER.md`; wildcards are refused.
-
+15. **LEVELS AND ROOTS.** Level 0 is the fast ASCII 32–127 pre-exposure run: 32 is SPACE, 33–126 are visible, and 127 is DEL. Level 1 is counting 1–1000. Level 2 is ABCs. Counting and ABC tablets may omit prerequisites because they establish the first ground; later grounded tablets must name signed prerequisites.
+16. **COUNTING PICTURE.** For value `n`, count marks fill left-to-right in rows of ten. Ten rows make a 10x10 hundred square. Values above 100 reuse completed hundred squares plus the active square. The picture is computed from `n`; do not store one picture per number.
+17. **TRUTH VALUES.** Answers are TRUE, FALSE, or UNKNOWN. UNKNOWN is held and names what is missing.
+18. **AUDIO REFERENCES MUST CONTAIN SIGNAL.** Every referenced WAV passes the approved signal check before admission.
+19. **RECEIPTS.** Claims require stored, inspectable output. A green mark or successful compile alone is not a receipt.
+20. **FIRST AND LAST.** First read the three mandatory files. Last sign every exact changed path in `SIGN_LEDGER.md`; wildcards are refused.

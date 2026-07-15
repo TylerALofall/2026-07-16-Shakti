@@ -52,3 +52,7 @@ Format: `- YYYY-MM-DD | signer | ADDED|MODIFIED|REMOVED | exact path`
 - 2026-07-15 | Codex | MODIFIED | Genesis/Eden/Shakti_internal_gate_loop/README.md
 - 2026-07-15 | Codex | MODIFIED | Genesis/Eden/Shakti_Spirit_instructions/README.md
 - 2026-07-15 | Codex | REMOVED | Genesis/Eden/Visual_Artifacts/gen_visual_artifacts.sh
+
+## GLYPH STORAGE AND ACTUATOR CLARIFICATION
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/Tablet_Training_Artifacts_Master/00_READ_FIRST_RULES_AND_LAWS.md
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/SIGN_LEDGER.md

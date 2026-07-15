@@ -1,34 +1,35 @@
-<!-- TEMPLATE: copy, fill, rename per convention L<level>_<title>_<seq4>_<YYYY-MM-DD>.xml
-     Then add ONE signed line to INDEX_MASTER.xml. Never edit a slotted tablet. -->
+<!-- Copy and rename: L<level>_<title>_<seq4>_<YYYY-MM-DD>.xml
+     Curriculum order belongs only in INDEX_MASTER.xml.
+     Do not add seconds or duration to this tablet. -->
 <tablet>
   <header>
     <title>TITLE_HERE</title>
     <level>LEVEL_INT</level>
-    <order>SEQ4</order>
     <prereq>PREREQ_TITLE</prereq>
     <submitted_by>WHO</submitted_by>
     <date>YYYY-MM-DD</date>
     <replaces>none</replaces>
     <pull>
-      <file role="sound" path="atoms/WORD.wav"/>
-      <file role="visual" path="renders/WORD.svg"/>
+      <file role="sound" name="SOUND_FILE.wav" path="Genesis/Eden/Sound_artifacts/SOUND_FILE.wav"/>
+      <file role="visual" name="VISUAL_FILE.svg" path="Genesis/Eden/Visual_Artifacts/VISUAL_FILE.svg"/>
     </pull>
   </header>
-  <stone token="WORD" domain="DOMAIN">
-    <visual seconds="1.0">
-      <render ref="renders/WORD.svg"/>
+  <stone token="TOKEN" domain="DOMAIN">
+    <visual>
+      <render ref="Genesis/Eden/Visual_Artifacts/VISUAL_FILE.svg"/>
       <examples></examples>
     </visual>
-    <sound seconds="1.0" channels="1">
-      <say>WORD</say>
-      <record ref="atoms/WORD.wav"/>
+    <sound>
+      <say>TOKEN</say>
+      <record ref="Genesis/Eden/Sound_artifacts/SOUND_FILE.wav"/>
     </sound>
     <text>
-      <word tier="2">WORD</word>
-      <letters tier="1">W O R D</letters>
+      <word tier="2">TOKEN</word>
+      <letters tier="1">T O K E N</letters>
       <context></context>
     </text>
     <bond></bond>
-    <converge token="WORD"/>
+    <converge token="TOKEN"/>
   </stone>
 </tablet>
+

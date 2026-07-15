@@ -9,27 +9,14 @@
     <submitted_by>WHO</submitted_by>
     <date>YYYY-MM-DD</date>
     <replaces>none</replaces>
-    <pull>
-      <file role="sound" name="SOUND_FILE.wav" path="Genesis/Eden/Sound_artifacts/SOUND_FILE.wav"/>
-      <file role="visual" name="VISUAL_FILE.svg" path="Genesis/Eden/Visual_Artifacts/VISUAL_FILE.svg"/>
-    </pull>
   </header>
   <stone token="TOKEN" domain="DOMAIN">
-    <visual>
-      <render ref="Genesis/Eden/Visual_Artifacts/VISUAL_FILE.svg"/>
-      <examples></examples>
-    </visual>
-    <sound>
-      <say>TOKEN</say>
-      <record ref="Genesis/Eden/Sound_artifacts/SOUND_FILE.wav"/>
-    </sound>
-    <text>
-      <word tier="2">TOKEN</word>
-      <letters tier="1">T O K E N</letters>
-      <context></context>
-    </text>
-    <bond></bond>
-    <converge token="TOKEN"/>
+    <visual_art>
+      <file_path>Genesis/Eden/Visual_Artifacts/VISUAL_FILE.svg</file_path>
+    </visual_art>
+    <audio_art>
+      <file_path>Genesis/Eden/Sound_artifacts/SOUND_FILE.wav</file_path>
+    </audio_art>
+    <text>TEXT</text>
   </stone>
 </tablet>
-

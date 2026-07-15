@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Multiline tags are intentional. -->
+<ground domain="counting">
+  <stone
+      token="2"
+      domain="counting">
+    <visual><render ref=""/></visual>
+    <sound><say>two</say><record ref=""/></sound>
+    <text><word>two</word></text>
+  </stone>
+  <stone token="1" domain="counting">
+    <visual><render ref=""/></visual>
+    <sound><say>one</say><record ref=""/></sound>
+    <text><word>one</word></text>
+  </stone>
+</ground>

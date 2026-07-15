@@ -1,2 +1,4 @@
 # Shakti_Spirit_instructions
-MD instruction files only: the Ten Commandments, spirit/system messages, the prompt chain (commandments -> memory -> instructions -> CONVERGE). The Founder's voice is president over all of these. NO PYTHON, EVER.
+
+Approved Markdown files for commandments, system and spirit instructions, and
+their signed presentation order belong here. NO PYTHON.

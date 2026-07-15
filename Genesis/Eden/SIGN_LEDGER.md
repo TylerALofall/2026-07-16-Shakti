@@ -26,3 +26,13 @@ Format:
 - 2026-07-15 | Codex | REMOVED | Genesis/Eden/Tablet_Training_Artifacts_Master/EXAMPLE_L1_counting_ones_0001_2026-07-15.xml | replaces: none
 - 2026-07-15 | Codex | ADDED | Genesis/Eden/Tablet_Training_Artifacts_Master/EXAMPLE_L1_counting_twos_0001_2026-07-15.xml | replaces: none
 - 2026-07-15 | Codex | REMOVED | Genesis/Eden/Tablet_Training_Artifacts_Master/EXAMPLE_L2_alphabet_a_0001_2026-07-15.xml | replaces: none
+
+## THREE-ELEMENT SCHEMA CORRECTION
+- 2026-07-15 | Codex | REPLACED | Genesis/Eden/README.md | replaces: Genesis/Eden/README.md
+- 2026-07-15 | Codex | REPLACED | Genesis/Eden/LAWS.md | replaces: Genesis/Eden/LAWS.md
+- 2026-07-15 | Codex | REPLACED | Genesis/Eden/MODEL_INSTRUCTIONS.md | replaces: Genesis/Eden/MODEL_INSTRUCTIONS.md
+- 2026-07-15 | Codex | REPLACED | Genesis/Eden/SIGN_LEDGER.md | replaces: Genesis/Eden/SIGN_LEDGER.md
+- 2026-07-15 | Codex | REPLACED | Genesis/Eden/Tablet_Training_Artifacts_Master/00_READ_FIRST_RULES_AND_LAWS.md | replaces: Genesis/Eden/Tablet_Training_Artifacts_Master/00_READ_FIRST_RULES_AND_LAWS.md
+- 2026-07-15 | Codex | REPLACED | Genesis/Eden/Tablet_Training_Artifacts_Master/TEMPLATE_tablet.xml | replaces: Genesis/Eden/Tablet_Training_Artifacts_Master/TEMPLATE_tablet.xml
+- 2026-07-15 | Codex | REPLACED | Genesis/Eden/Tablet_Training_Artifacts_Master/EXAMPLE_L1_counting_ones_0002_2026-07-15.xml | replaces: Genesis/Eden/Tablet_Training_Artifacts_Master/EXAMPLE_L1_counting_ones_0002_2026-07-15.xml
+- 2026-07-15 | Codex | REPLACED | Genesis/Eden/Tablet_Training_Artifacts_Master/EXAMPLE_L1_counting_twos_0001_2026-07-15.xml | replaces: Genesis/Eden/Tablet_Training_Artifacts_Master/EXAMPLE_L1_counting_twos_0001_2026-07-15.xml

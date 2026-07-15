@@ -46,10 +46,27 @@ place; it is never copied merely because it is used again. Data filenames carry
 no dates. Data files never move after a signed tablet references them.
 
 ## TABLETS AND ORDER
-Every tablet is one XML object. It contains its header, repeatable
-prerequisites, exact pull filenames and repository-relative paths, and stones
-using the approved element names. Curriculum order exists only in
-`INDEX_MASTER.xml`; changing one entry's `order` value is the one-line reorder.
+Every tablet is one XML object. Its header holds identity, optional repeatable
+prerequisites, and signing. Every stone contains exactly `visual_art`,
+`audio_art`, and `text`. An artifact contains one `file_path`; that value is the
+complete repository-relative filename and location. There is no duplicate pull
+list. The build creates the run manifest from the stones.
+
+Curriculum order exists only in `INDEX_MASTER.xml`; changing one entry's
+`order` value is the one-line reorder.
+
+## ROOT TEACHING VISUALS
+Level 0 is a fast ASCII pre-exposure run, not a grounding prerequisite.
+Counting and ABC tablets establish the first ground and may omit `<prereq>`.
+Later grounded tablets must name their signed prerequisites.
+
+An empty `<visual_art/>` invokes the deterministic resident renderer:
+- counting shows the numeral, word, quoted word, and exact count marks;
+- ABCs show the uppercase and lowercase 8x8 glyphs;
+- other text shows the word composed from the frozen 8x8 alphabet.
+
+A real picture is added by placing its exact path in
+`<visual_art><file_path>...</file_path></visual_art>`. Text remains present.
 
 ## TIMING
 Tablet XML never contains a guessed `seconds` or `duration` value. Timing is
@@ -63,4 +80,3 @@ counting timing before stored inferences for 11–1000 are admitted.
 ## ABSOLUTE
 NO PYTHON. Do not generate, edit, test, rename, or move Eden files with Python.
 Use inspectable C and the approved shell build entry only.
-

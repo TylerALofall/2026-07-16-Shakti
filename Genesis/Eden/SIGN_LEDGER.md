@@ -90,3 +90,18 @@ Format: `- YYYY-MM-DD | signer | ADDED|MODIFIED|REMOVED | exact path`
 - 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/eden_number_lexer.h
 - 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/test_c.sh
 - 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/test_number_lexer.c
+
+## EXACT RESIDENT LEXICON
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/MODEL_INSTRUCTIONS.md
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/SIGN_LEDGER.md
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/Shakti_internal_gate_loop/README.md
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/lexicon/README.md
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/lexicon/build_c.bat
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/lexicon/build_c.sh
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/lexicon/eden_lexicon.c
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/lexicon/eden_lexicon.h
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/lexicon/eden_matrix_to_c.c
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/lexicon/test_c.sh
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/lexicon/test_lexicon.c
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/lexicon/tests/sample_matrix.txt
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/lexicon/tests/unsorted_matrix.txt

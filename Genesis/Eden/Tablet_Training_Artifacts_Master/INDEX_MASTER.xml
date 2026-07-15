@@ -1,14 +1,11 @@
-<!-- Exact table of contents. Curriculum order exists only on active entries here.
-     Examples are complete schema references but are not active curriculum. -->
 <index_master established="2026-07-15" founder="Tyler">
   <examples>
-    <example level="1" file="EXAMPLE_L1_counting_ones_0002_2026-07-15.xml" submitted_by="Codex" date="2026-07-15" replaces="EXAMPLE_L1_counting_ones_0001_2026-07-15.xml"/>
-    <example level="1" file="EXAMPLE_L1_counting_twos_0001_2026-07-15.xml" submitted_by="Codex" date="2026-07-15" replaces="none"/>
+    <example file="EXAMPLE_L1_counting_ones_0002_2026-07-15.xml" submitted_by="Codex" date_added="2026-07-15" last_modified="2026-07-15"/>
+    <example file="EXAMPLE_L1_counting_twos_0001_2026-07-15.xml" submitted_by="Codex" date_added="2026-07-15" last_modified="2026-07-15"/>
   </examples>
   <curriculum>
-    <!-- Only complete signed tablets enter here.
-         One-line reorder example:
-         <entry order="0001" level="1" file="L1_example_0001_YYYY-MM-DD.xml" submitted_by="WHO" date="YYYY-MM-DD" replaces="none"/>
+    <!-- Complete signed tablets only:
+         <entry order="0001" file="L1_example_0001_YYYY-MM-DD.xml" submitted_by="WHO" date_added="YYYY-MM-DD" last_modified="YYYY-MM-DD"/>
     -->
   </curriculum>
 </index_master>

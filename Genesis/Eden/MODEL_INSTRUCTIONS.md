@@ -54,6 +54,13 @@ output are verifiable.
     conventions. Candidate spreadsheets are review surfaces, never Ground.
 12. Add the build-time TSV-to-const-C relationship converter only after its
     unsorted, non-admitted, missing-source, and truth-region refusal tests exist.
+13. Use `Shakti_internal_gate_loop/audio_composer/` to build math audio from
+    exact 16 kHz founder-voice atoms. The 1,600 question and 1,600 answer WAV
+    stems must match their SVG stems exactly; the generated manifest receipts
+    every ordered atom and sample count.
+14. Do not call a 3,200-track audio set complete until preflight passes. The
+    attached 69-atom archive lacks `zero`, so its 20 zero-answer subtraction
+    tracks remain REFUSED until the admitted founder-voice zero atom is supplied.
 
 ## DISSECTION ORDER
 1. Preserve and tokenize the input.

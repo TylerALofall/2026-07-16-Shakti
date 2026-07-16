@@ -1,0 +1,27 @@
+theme_id	left_form	relation	right_form	left_class	right_class	truth_kind	source_title	source_locator	note	status
+alphabet_case	a	case_pair	A	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0061	ASCII basic Latin only; U+0061 to U+0041	CANDIDATE
+alphabet_case	b	case_pair	B	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0062	ASCII basic Latin only; U+0062 to U+0042	CANDIDATE
+alphabet_case	c	case_pair	C	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0063	ASCII basic Latin only; U+0063 to U+0043	CANDIDATE
+alphabet_case	d	case_pair	D	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0064	ASCII basic Latin only; U+0064 to U+0044	CANDIDATE
+alphabet_case	e	case_pair	E	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0065	ASCII basic Latin only; U+0065 to U+0045	CANDIDATE
+alphabet_case	f	case_pair	F	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0066	ASCII basic Latin only; U+0066 to U+0046	CANDIDATE
+alphabet_case	g	case_pair	G	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0067	ASCII basic Latin only; U+0067 to U+0047	CANDIDATE
+alphabet_case	h	case_pair	H	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0068	ASCII basic Latin only; U+0068 to U+0048	CANDIDATE
+alphabet_case	i	case_pair	I	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0069	ASCII basic Latin only; U+0069 to U+0049	CANDIDATE
+alphabet_case	j	case_pair	J	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+006A	ASCII basic Latin only; U+006A to U+004A	CANDIDATE
+alphabet_case	k	case_pair	K	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+006B	ASCII basic Latin only; U+006B to U+004B	CANDIDATE
+alphabet_case	l	case_pair	L	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+006C	ASCII basic Latin only; U+006C to U+004C	CANDIDATE
+alphabet_case	m	case_pair	M	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+006D	ASCII basic Latin only; U+006D to U+004D	CANDIDATE
+alphabet_case	n	case_pair	N	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+006E	ASCII basic Latin only; U+006E to U+004E	CANDIDATE
+alphabet_case	o	case_pair	O	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+006F	ASCII basic Latin only; U+006F to U+004F	CANDIDATE
+alphabet_case	p	case_pair	P	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0070	ASCII basic Latin only; U+0070 to U+0050	CANDIDATE
+alphabet_case	q	case_pair	Q	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0071	ASCII basic Latin only; U+0071 to U+0051	CANDIDATE
+alphabet_case	r	case_pair	R	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0072	ASCII basic Latin only; U+0072 to U+0052	CANDIDATE
+alphabet_case	s	case_pair	S	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0073	ASCII basic Latin only; U+0073 to U+0053	CANDIDATE
+alphabet_case	t	case_pair	T	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0074	ASCII basic Latin only; U+0074 to U+0054	CANDIDATE
+alphabet_case	u	case_pair	U	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0075	ASCII basic Latin only; U+0075 to U+0055	CANDIDATE
+alphabet_case	v	case_pair	V	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0076	ASCII basic Latin only; U+0076 to U+0056	CANDIDATE
+alphabet_case	w	case_pair	W	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0077	ASCII basic Latin only; U+0077 to U+0057	CANDIDATE
+alphabet_case	x	case_pair	X	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0078	ASCII basic Latin only; U+0078 to U+0058	CANDIDATE
+alphabet_case	y	case_pair	Y	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+0079	ASCII basic Latin only; U+0079 to U+0059	CANDIDATE
+alphabet_case	z	case_pair	Z	Ll	Lu	ABSOLUTE	Unicode Character Database 17.0.0 (2025-08-15)	UnicodeData.txt field 13 Simple_Uppercase_Mapping U+007A	ASCII basic Latin only; U+007A to U+005A	CANDIDATE

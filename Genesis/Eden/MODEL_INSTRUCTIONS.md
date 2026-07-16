@@ -8,6 +8,7 @@
 - `Genesis/Eden/Tablet_Training_Artifacts_Master/` — tablet rules, template, examples, and `INDEX_MASTER.xml`.
 - `Genesis/Eden/Visual_Artifacts/` — permanent undated visual data files.
 - `Genesis/Eden/Sound_artifacts/` — permanent undated sound data files.
+- `Genesis/Eden/Relationship_Masters/` — reviewed themed relationship and drill tables for build-time C conversion.
 - `Genesis/Eden/Shakti_internal_gate_loop/` — C17 runtime gate and build-time conversion tools.
 - `Genesis/Eden/Shakti_Spirit_instructions/` — approved Markdown instructions.
 - `Genesis/Eden/Shakti_Inference/` — stored converged inference records.
@@ -46,6 +47,13 @@ output are verifiable.
 7. Admit Level 1 counting tablets in signed order.
 8. Sign the rule for 11–1000 spans before those stored inferences enter.
 9. Admit Level 2 ABC tablets after their referenced audio carries signal.
+10. Review the three Level 2 supplementary alphabet SVG sets against
+    `Visual_Artifacts/ALPHABET_ART_SPEC.md`; do not admit a partial set as a
+    complete lesson.
+11. Fill relationship themes only from named masters or explicit founder-defined
+    conventions. Candidate spreadsheets are review surfaces, never Ground.
+12. Add the build-time TSV-to-const-C relationship converter only after its
+    unsorted, non-admitted, missing-source, and truth-region refusal tests exist.
 
 ## DISSECTION ORDER
 1. Preserve and tokenize the input.
@@ -65,6 +73,16 @@ output are verifiable.
   edge list.
 - A word-operation association is counted vocabulary evidence, never absolute
   math. An unresolved or contradictory binding remains UNKNOWN.
+- Relationship input is split by theme and precise relation. `young_name_for`,
+  `life_stage_of`, `case_pair`, and `role_counterpart` never collapse into a
+  vague colon or guessed `opposite` relation.
+- Only signed `ADMITTED` TSV rows become resident. Spreadsheet workbooks are for
+  human review and are never parsed by the runtime.
+- Exhaustive arithmetic cases come from closed integer domains and formulas.
+  Colored or reordered practice passes do not create new mathematical facts.
+- A math fact is exactly `A`, operator `B`, `C`, and answer `D`. Teaching may
+  show `D`; answering hides the same sealed `D` and validates against it. `/`
+  means division, `%` means remainder, and both refuse a zero `C`.
 
 ## TABLET CONTRACT
 - One tablet is one XML object.

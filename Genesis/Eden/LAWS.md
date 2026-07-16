@@ -8,6 +8,7 @@
 - `Genesis/Eden/Tablet_Training_Artifacts_Master/` — tablet rules, template, examples, and `INDEX_MASTER.xml`.
 - `Genesis/Eden/Visual_Artifacts/` — permanent undated visual data files.
 - `Genesis/Eden/Sound_artifacts/` — permanent undated sound data files.
+- `Genesis/Eden/Relationship_Masters/` — reviewed themed relationship and drill tables for build-time C conversion.
 - `Genesis/Eden/Shakti_internal_gate_loop/` — C17 runtime gate and build-time conversion tools.
 - `Genesis/Eden/Shakti_Spirit_instructions/` — approved Markdown instructions.
 - `Genesis/Eden/Shakti_Inference/` — stored converged inference records.
@@ -41,3 +42,9 @@ Read all three before changing anything.
 19. **AUDIO MUST CARRY SIGNAL.** Every referenced WAV passes the approved signal check.
 20. **RECEIPTS.** Claims require inspectable output. A successful compile alone is not proof.
 21. **FIRST AND LAST.** Read the three mandatory files first. Sign every exact changed path last; wildcards are refused.
+22. **MASTER-SOURCED RELATIONSHIPS.** One finite class fact per sorted row. Every non-founder row names an authoritative master and direct locator.
+23. **CANDIDATES ARE NOT GROUND.** `CANDIDATE`, `REVIEWED`, `REFUSED`, and `UNKNOWN` rows are never emitted into resident tables. Only signed `ADMITTED` rows compile.
+24. **GRAPH VIEWS ARE COMPUTED.** Theme, relation, class, order, and formula columns produce lesson graphs. Never store an all-pairs edge pool.
+25. **FINITE DRILLS ARE ENUMERATED.** Arithmetic domains and acceptance rules generate every exact case. Practice passes may change color and order without duplicating or weakening the fact.
+26. **SUPPLEMENTARY ART IS NOT IDENTITY.** Alphabet SVGs may add block, italic, and paired experiences, but ASCII text and the frozen 8x8 glyph remain the exact character identity.
+27. **THE ANSWER STAYS SEALED.** Every math fact retains exact `A`, operator `B`, `C`, and answer `D`. A quiz hides `D`; it never removes or recreates the answer table.

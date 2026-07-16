@@ -151,3 +151,17 @@ Format: `- YYYY-MM-DD | signer | ADDED|MODIFIED|REMOVED | exact path`
 - 2026-07-16 | Codex | MODIFIED | Genesis/Eden/MODEL_INSTRUCTIONS.md
 - 2026-07-16 | Codex | MODIFIED | Genesis/Eden/Sound_artifacts/NAMING.md
 - 2026-07-16 | Codex | MODIFIED | Genesis/Eden/SIGN_LEDGER.md
+
+## CLOCK FLOW — 132 POSITIONS, 43,200 STATES
+- 2026-07-16 | Codex | MODIFIED | Genesis/Eden/MODEL_INSTRUCTIONS.md
+- 2026-07-16 | Codex | MODIFIED | Genesis/Eden/SIGN_LEDGER.md
+- 2026-07-16 | Codex | MODIFIED | Genesis/Eden/Shakti_internal_gate_loop/README.md
+- 2026-07-16 | Codex | ADDED | Genesis/Eden/Relationship_Masters/time_conversions.tsv
+- 2026-07-16 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/time/README.md
+- 2026-07-16 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/time/build_c.bat
+- 2026-07-16 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/time/build_c.sh
+- 2026-07-16 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/time/eden_clock.c
+- 2026-07-16 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/time/eden_clock.h
+- 2026-07-16 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/time/eden_clock_flow.c
+- 2026-07-16 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/time/test_c.sh
+- 2026-07-16 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/time/test_clock.c

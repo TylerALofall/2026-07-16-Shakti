@@ -105,3 +105,18 @@ Format: `- YYYY-MM-DD | signer | ADDED|MODIFIED|REMOVED | exact path`
 - 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/lexicon/test_lexicon.c
 - 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/lexicon/tests/sample_matrix.txt
 - 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/dissector/lexicon/tests/unsorted_matrix.txt
+
+## ALPHABET ART AND RELATIONSHIP INTAKE
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/README.md
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/LAWS.md
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/MODEL_INSTRUCTIONS.md
+- 2026-07-15 | Codex | MODIFIED | Genesis/Eden/SIGN_LEDGER.md
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Visual_Artifacts/ALPHABET_ART_SPEC.md
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Visual_Artifacts/TEMPLATE_alphabet_submission.tsv
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Relationship_Masters/README.md
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Relationship_Masters/TEMPLATE_relationships.tsv
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Relationship_Masters/THEME_REGISTRY.tsv
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Relationship_Masters/ARITHMETIC_DOMAIN_TEMPLATE.tsv
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Relationship_Masters/TEMPLATE_math_facts.tsv
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/relationships/README.md
+- 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/relationships/eden_relationship_schema.h

@@ -120,4 +120,4 @@ Format: `- YYYY-MM-DD | signer | ADDED|MODIFIED|REMOVED | exact path`
 - 2026-07-15 | Codex | ADDED | Genesis/Eden/Relationship_Masters/TEMPLATE_math_facts.tsv
 - 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/relationships/README.md
 - 2026-07-15 | Codex | ADDED | Genesis/Eden/Shakti_internal_gate_loop/relationships/eden_relationship_schema.h
-| Genesis/Eden/Relationship_Masters/alphabet_case.tsv | ADDED | Claude Opus 4.8 | 2026-07-16 | 26 case_pair rows, ABSOLUTE, Unicode 17.0.0 (2025-08-15) UnicodeData.txt field 13 Simple_Uppercase_Mapping; status CANDIDATE, awaiting Founder ADMIT |
+- 2026-07-16 | Claude Opus 4.8 | ADDED | Genesis/Eden/Relationship_Masters/alphabet_case.tsv

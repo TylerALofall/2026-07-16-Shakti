@@ -8,6 +8,7 @@
 - `Genesis/Eden/Tablet_Training_Artifacts_Master/` — tablet rules, template, examples, and `INDEX_MASTER.xml`.
 - `Genesis/Eden/Visual_Artifacts/` — permanent undated visual data files.
 - `Genesis/Eden/Sound_artifacts/` — permanent undated sound data files.
+- `Genesis/Eden/Relationship_Masters/` — reviewed themed relationship and drill tables for build-time C conversion.
 - `Genesis/Eden/Shakti_internal_gate_loop/` — C17 runtime gate and build-time conversion tools.
 - `Genesis/Eden/Shakti_Spirit_instructions/` — approved Markdown instructions.
 - `Genesis/Eden/Shakti_Inference/` — stored converged inference records.
@@ -36,6 +37,23 @@ Visual and sound data use `lvl<level>_<series>_<item>.<ext>` and the same stem
 for the same item. Data names carry no dates. A signed data path never moves.
 
 Examples: `lvl1_counting_one.svg`, `lvl1_counting_one.wav`, `lvl2_ABCs_Aa.svg`.
+
+Level 2 supplementary alphabet art follows
+`Genesis/Eden/Visual_Artifacts/ALPHABET_ART_SPEC.md`. It uses three complete
+512x512 SVG sets named `block`, `italic`, and `pair`. These pictures never
+replace the frozen 8x8 `visual_text` identity.
+
+## RELATIONSHIP TABLES AND DRILLS
+Relationship rows are small, themed, and source-receipted. They are class rows,
+not a growing all-pairs link graph. The build computes lesson views by exact
+filtering, classification joins, ordering, and formulas. Candidates and refused
+rows never enter Ground. Runtime reads resident const tables, never `.xlsx`.
+
+Exhaustive arithmetic is declared as a finite domain, not thousands of handmade
+pictures. For example, nested integer loops cover every accepted `a + b` or
+`a - b` row; the C visual renderer computes dots, rows of ten, colors, symbols,
+and the exact result. Repeated colored passes belong to the caller's run
+manifest and do not duplicate the mathematical fact.
 
 ## TABLETS, PREREQUISITES, AND ORDER
 Each tablet is one XML object. XML declares only the tablet's direct relevant

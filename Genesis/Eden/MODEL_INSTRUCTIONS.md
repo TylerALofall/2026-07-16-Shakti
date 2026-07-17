@@ -61,6 +61,9 @@ output are verifiable.
 14. Do not call a 3,200-track audio set complete until preflight passes. The
     attached 69-atom archive lacks `zero`, so its 20 zero-answer subtraction
     tracks remain REFUSED until the admitted founder-voice zero atom is supplied.
+15. The admitted clock core computes 43,200 twelve-hour states from 60 second,
+    60 minute, and 12 hour positions. Review the old private clock assets before
+    creating a time tablet; never bulk-copy them into the clean house.
 
 ## DISSECTION ORDER
 1. Preserve and tokenize the input.

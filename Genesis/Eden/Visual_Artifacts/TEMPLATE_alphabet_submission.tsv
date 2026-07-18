@@ -1,4 +1,0 @@
-set_id	token	file_path	width_px	height_px	view_box	max_bytes	source_master	source_url	license	creator	submitted_by	date_added	sha256	review_status
-block	A	Genesis/Eden/Visual_Artifacts/lvl2_ABCs_block_A.svg	512	512	0 0 512 512	262144	REQUIRED	REQUIRED	REQUIRED	REQUIRED	REQUIRED	YYYY-MM-DD	REVIEWER_FILLS	TEMPLATE_ONLY
-italic	a	Genesis/Eden/Visual_Artifacts/lvl2_ABCs_italic_a.svg	512	512	0 0 512 512	262144	REQUIRED	REQUIRED	REQUIRED	REQUIRED	REQUIRED	YYYY-MM-DD	REVIEWER_FILLS	TEMPLATE_ONLY
-pair	Aa	Genesis/Eden/Visual_Artifacts/lvl2_ABCs_pair_Aa.svg	512	512	0 0 512 512	262144	REQUIRED	REQUIRED	REQUIRED	REQUIRED	REQUIRED	YYYY-MM-DD	REVIEWER_FILLS	TEMPLATE_ONLY

@@ -1,6 +1,0 @@
-and|conjunction||and
-clip|noun||clip
-clip|verb_form|present|clip
-clips|noun_pl|plural|clip
-run|noun||run
-run|verb_i|present|run

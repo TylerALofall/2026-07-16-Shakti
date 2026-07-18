@@ -1,5 +1,0 @@
-<ground domain="counting">
-  <stone token="1" domain="counting">
-    <sound><say>one</say></sound>
-    <text><word>one</word></text>
-  </stone>

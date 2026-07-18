@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<memory_event schema_version="1"
+              event_id="17939201-Ra-3"
+              source_task_epoch="17939201"
+              origin="SCHOOL"
+              kind="EVENT"
+              evidence="INFERRED"
+              called_epoch="17939201">
+  <canonical_text>Synthetic fixture: a bounded test operation returned a buffer refusal.</canonical_text>
+  <reflection_text>Synthetic diagnostic: validate the declared boundary before another test.</reflection_text>
+  <convergence_ref>17939201-Ca-2</convergence_ref>
+  <valuation evidence="INFERRED"
+             valence_milli="-150"
+             arousal_milli="420"
+             urgency_milli="300"
+             approach_milli="650"
+             avoidance_milli="120"
+             uncertainty_milli="480"
+             novelty_milli="250">
+    <basis>Synthetic code-derived test values; no person or lived event is represented.</basis>
+  </valuation>
+</memory_event>

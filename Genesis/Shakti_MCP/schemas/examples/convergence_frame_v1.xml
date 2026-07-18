@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<convergence_frame schema_version="1"
+                   frame_id="17939201-Ca-2"
+                   called_epoch="17939201">
+  <observation source_id="fixture-input-41"
+               modality="TEXT"
+               called_epoch="17939201"
+               source_sequence="41"
+               confidence_milli="1000">Synthetic fixture request: test the fixed buffer boundary.</observation>
+  <observation source_id="fixture-result-88"
+               modality="TOOL"
+               called_epoch="17939201"
+               source_sequence="88"
+               confidence_milli="1000">FAIL: input exceeded the fixed buffer.</observation>
+</convergence_frame>

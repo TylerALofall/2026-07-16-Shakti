@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shakti_document_registry schema_version="1" last_verified="2026-07-17">
+  <document id="project.agents" path="AGENTS.md" status="implemented" authority="repository_model_guidance"/>
+  <document id="project.architecture" path="docs/MASTER_ARCHITECTURE.md" status="implemented" authority="project_topology_and_status"/>
+  <document id="project.doc_standard" path="docs/DOCUMENT_STANDARD.md" status="implemented" authority="documentation_style"/>
+  <document id="project.lifecycle" path="docs/SHAKTI_A_TO_Z_LIFECYCLE.md" status="contract-only" authority="global_lifecycle_and_section_letters"/>
+  <document id="mcp.agents" path="Genesis/Shakti_MCP/AGENTS.md" status="implemented" authority="mcp_model_guidance"/>
+  <document id="mcp.readme" path="Genesis/Shakti_MCP/README.md" status="implemented" authority="mcp_entry_point"/>
+  <document id="mcp.pipeline" path="Genesis/Shakti_MCP/FULL_PIPELINE.md" status="contract-only" authority="mcp_end_to_end_architecture"/>
+  <document id="mcp.host" path="Genesis/Shakti_MCP/HOST_CONTRACT.md" status="implemented" authority="host_router_boundary"/>
+  <document id="mcp.routes" path="Genesis/Shakti_MCP/ROUTE_MAP.md" status="implemented" authority="route_ownership"/>
+  <document id="mcp.commands" path="Genesis/Shakti_MCP/COMMANDS.md" status="implemented" authority="command_vocabulary"/>
+  <document id="mcp.signing" path="Genesis/Shakti_MCP/SIGN_LEDGER.md" status="implemented" authority="mcp_change_attestation"/>
+  <document id="mcp.state" path="Genesis/Shakti_MCP/state/README.md" status="contract-only" authority="runtime_state_layout"/>
+  <document id="mcp.schemas" path="Genesis/Shakti_MCP/schemas/README.md" status="contract-only" authority="memory_and_convergence_xml"/>
+  <relationship from="project.architecture" to="mcp.pipeline" kind="decomposes_to"/>
+  <relationship from="project.architecture" to="project.lifecycle" kind="ordered_by"/>
+  <relationship from="mcp.pipeline" to="mcp.host" kind="bounded_by"/>
+  <relationship from="mcp.pipeline" to="mcp.routes" kind="implemented_by"/>
+  <relationship from="mcp.routes" to="mcp.commands" kind="exposed_as"/>
+  <relationship from="mcp.pipeline" to="mcp.schemas" kind="serializes_with"/>
+</shakti_document_registry>

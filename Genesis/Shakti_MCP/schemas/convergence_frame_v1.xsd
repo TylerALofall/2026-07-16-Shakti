@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:simpleType name="milliUnsigned">
+    <xs:restriction base="xs:unsignedShort">
+      <xs:maxInclusive value="1000"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="eventId">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]+-[A-Z]+[a-z]*-[1-9][0-9]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="observationType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="source_id" type="xs:string" use="required"/>
+        <xs:attribute name="modality" use="required">
+          <xs:simpleType><xs:restriction base="xs:string">
+            <xs:enumeration value="TEXT"/><xs:enumeration value="IMAGE"/>
+            <xs:enumeration value="AUDIO"/><xs:enumeration value="TOOL"/>
+            <xs:enumeration value="SYSTEM"/>
+          </xs:restriction></xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="called_epoch" type="xs:unsignedLong" use="required"/>
+        <xs:attribute name="source_sequence" type="xs:unsignedLong" use="required"/>
+        <xs:attribute name="confidence_milli" type="milliUnsigned" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:element name="convergence_frame">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="observation" type="observationType" minOccurs="1" maxOccurs="16"/>
+      </xs:sequence>
+      <xs:attribute name="schema_version" type="xs:positiveInteger" use="required"/>
+      <xs:attribute name="frame_id" type="eventId" use="required"/>
+      <xs:attribute name="called_epoch" type="xs:unsignedLong" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

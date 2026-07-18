@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shakti_menu schema_version="1">
+  <tool id="dict" class="DICT" name="Dictionary" enabled="false">
+    <describe>Placeholder for staged word lookup.</describe>
+  </tool>
+  <tool id="calc" class="CALC" name="Calculator" enabled="false">
+    <describe>Placeholder for staged exact calculation.</describe>
+  </tool>
+  <tool id="file" class="FILE" name="File" enabled="false">
+    <describe>Placeholder for host-owned file operations.</describe>
+  </tool>
+  <tool id="net" class="NET" name="Network" enabled="false">
+    <describe>Placeholder only; the router has no network access.</describe>
+  </tool>
+  <tool id="music" class="MUSIC" name="Music" enabled="false">
+    <describe>Placeholder for a future host attachment.</describe>
+    <action id="practice">
+      <instructions>Reserved: choose one admitted instrument practice activity.</instructions>
+    </action>
+  </tool>
+  <tool id="mem" class="MEM" name="Memory" enabled="false">
+    <describe>Placeholder for the later reflection boundary.</describe>
+    <action id="reflect">
+      <instructions>Reserved: create one typed candidate from a witnessed batch.</instructions>
+    </action>
+    <action id="remember">
+      <instructions>Reserved: validate and commit one candidate through the loader.</instructions>
+    </action>
+    <action id="recall_id">
+      <instructions>Reserved: copy one exact immutable event into short-term memory.</instructions>
+    </action>
+    <action id="recall_dismiss">
+      <instructions>Reserved: discard a recall copy without changing the archive.</instructions>
+    </action>
+  </tool>
+  <tool id="io" class="IO" name="Input Output" enabled="false">
+    <describe>Placeholder for host-owned message transport.</describe>
+  </tool>
+</shakti_menu>

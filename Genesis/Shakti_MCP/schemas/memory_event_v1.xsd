@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:simpleType name="evidenceClass">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="OBSERVED"/>
+      <xs:enumeration value="REPORTED"/>
+      <xs:enumeration value="INFERRED"/>
+      <xs:enumeration value="HYPOTHESIS"/>
+      <xs:enumeration value="UNKNOWN"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="milliSigned">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="-1000"/><xs:maxInclusive value="1000"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="eventId">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]+-[A-Z]+[a-z]*-[1-9][0-9]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="milliUnsigned">
+    <xs:restriction base="xs:unsignedShort">
+      <xs:maxInclusive value="1000"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="valuationType">
+    <xs:sequence>
+      <xs:element name="basis" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="evidence" type="evidenceClass" use="required"/>
+    <xs:attribute name="valence_milli" type="milliSigned" use="required"/>
+    <xs:attribute name="arousal_milli" type="milliUnsigned" use="required"/>
+    <xs:attribute name="urgency_milli" type="milliUnsigned" use="required"/>
+    <xs:attribute name="approach_milli" type="milliUnsigned" use="required"/>
+    <xs:attribute name="avoidance_milli" type="milliUnsigned" use="required"/>
+    <xs:attribute name="uncertainty_milli" type="milliUnsigned" use="required"/>
+    <xs:attribute name="novelty_milli" type="milliUnsigned" use="required"/>
+  </xs:complexType>
+  <xs:element name="memory_event">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="canonical_text" type="xs:string"/>
+        <xs:element name="reflection_text" type="xs:string"/>
+        <xs:element name="convergence_ref" type="eventId" minOccurs="0"/>
+        <xs:element name="valuation" type="valuationType"/>
+        <xs:element name="corrects_event_id" type="eventId" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute name="schema_version" type="xs:positiveInteger" use="required"/>
+      <xs:attribute name="event_id" type="eventId" use="required"/>
+      <xs:attribute name="source_task_epoch" type="xs:unsignedLong" use="required"/>
+      <xs:attribute name="origin" use="required">
+        <xs:simpleType><xs:restriction base="xs:string">
+          <xs:enumeration value="SCHOOL"/><xs:enumeration value="LIVE"/>
+        </xs:restriction></xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="kind" use="required">
+        <xs:simpleType><xs:restriction base="xs:string">
+          <xs:enumeration value="EVENT"/><xs:enumeration value="REFLECTION"/>
+          <xs:enumeration value="CORRECTION"/>
+        </xs:restriction></xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="evidence" type="evidenceClass" use="required"/>
+      <xs:attribute name="called_epoch" type="xs:unsignedLong" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

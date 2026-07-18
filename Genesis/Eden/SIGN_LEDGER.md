@@ -253,3 +253,13 @@ FULL MODEL-WORK PURGE — FOUNDER ORDER 2026-07-18
 - 2026-07-18 | Claude Fable 5 | REMOVED | Genesis/Eden/Visual_Artifacts/lvl2_ABCs_Cc.svg
 
 FOUNDER ORDER 2026-07-18 — OPUS-SIGNED FILES RETAINED (21 paths: alphabet_case.tsv + 20 counting WAVs ten..hundred,and)
+
+FOUNDER STRUCTURE SKELETON
+
+- 2026-07-18 | Claude Fable 5 | ADDED | README.md (blank, founder to fill)
+- 2026-07-18 | Claude Fable 5 | ADDED | Eden/Training_artifacts/Visual_art/.gitkeep (empty placeholder)
+- 2026-07-18 | Claude Fable 5 | ADDED | Eden/Training_artifacts/Visual_text/.gitkeep (empty placeholder)
+- 2026-07-18 | Claude Fable 5 | ADDED | Eden/Training_artifacts/Sound_art/.gitkeep (empty placeholder)
+- 2026-07-18 | Claude Fable 5 | ADDED | Eden/Training_artifacts/XML_text/.gitkeep (empty placeholder)
+- 2026-07-18 | Claude Fable 5 | ADDED | Eden/Internal_mcp/.gitkeep (empty placeholder)
+- 2026-07-18 | Claude Fable 5 | ADDED | Eden/Birth/.gitkeep (empty placeholder)

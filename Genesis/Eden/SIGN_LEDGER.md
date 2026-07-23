@@ -263,3 +263,22 @@ FOUNDER STRUCTURE SKELETON
 - 2026-07-18 | Claude Fable 5 | ADDED | Eden/Training_artifacts/XML_text/.gitkeep (empty placeholder)
 - 2026-07-18 | Claude Fable 5 | ADDED | Eden/Internal_mcp/.gitkeep (empty placeholder)
 - 2026-07-18 | Claude Fable 5 | ADDED | Eden/Birth/.gitkeep (empty placeholder)
+
+## SHAKTI RUNNABLE MVP C99 — REPO RESTRUCTURE
+- 2026-07-23 | Claude Sonnet 5 | REMOVED | Eden/Training_artifacts/Visual_art/.gitkeep (superseded by data/eden and eden_out)
+- 2026-07-23 | Claude Sonnet 5 | REMOVED | Eden/Training_artifacts/Visual_text/.gitkeep (superseded by data/eden and eden_out)
+- 2026-07-23 | Claude Sonnet 5 | REMOVED | Eden/Training_artifacts/Sound_art/.gitkeep (superseded by data/eden and eden_out)
+- 2026-07-23 | Claude Sonnet 5 | REMOVED | Eden/Training_artifacts/XML_text/.gitkeep (superseded by data/eden and eden_out)
+- 2026-07-23 | Claude Sonnet 5 | REMOVED | Eden/Internal_mcp/.gitkeep (superseded, no MVP equivalent yet)
+- 2026-07-23 | Claude Sonnet 5 | REMOVED | Eden/Birth/.gitkeep (superseded, no MVP equivalent yet)
+- 2026-07-23 | Claude Sonnet 5 | MODIFIED | README.md (blank skeleton replaced with runnable MVP README)
+- 2026-07-23 | Claude Sonnet 5 | ADDED | Makefile, .gitignore, CHANGELOG.md, MANIFEST.sha256 (root build/manifest files)
+- 2026-07-23 | Claude Sonnet 5 | ADDED | BUILD_TEST_REPORT.txt, CHECK_RUN_OUTPUT.txt, DEMO_RUN_OUTPUT.txt, DRILL_RUN_OUTPUT.txt (recorded run outputs)
+- 2026-07-23 | Claude Sonnet 5 | ADDED | src/*, include/*, tools/*, tests/* (C99 runtime, headers, build tools, and test suite; legacy grouped entry)
+- 2026-07-23 | Claude Sonnet 5 | ADDED | docs/* (ALPHABET_V1.md, FOUNDATION_COUNTING_V1.md, MANIFEST_LEDGER_V1.md, REVISION_5_REVIEW.md, SINGLE_PROCESS_BOUNDARY.md)
+- 2026-07-23 | Claude Sonnet 5 | ADDED | data/eden/*, data/school/*, data/learned/*, data/control/*, data/source/* (curriculum manifest, XML tablets, and runtime state; legacy grouped entry)
+- 2026-07-23 | Claude Sonnet 5 | ADDED | eden_out/Sound_art/*, eden_out/Visual_art/*, eden_out/Visual_text/* (rendered sound/visual/handwriting art assets; legacy grouped entry)
+
+Genesis/Eden/ (this ledger, Relationship_Masters/, Sound_artifacts/) preserved unchanged as prior training data per founder order.
+
+Build verified: `make clean && make && make test` — all suites pass (test_shakti, test_builder.sh, test_loop.sh, test_seed.sh, test_mvp.sh). `./shakti --check` reports Implemented data 1033/1033, Verified stones 282/282, Runnable beginning: YES. `./shakti --demo` runs Pass 1 read-only presentation without changing School mastery.

@@ -1,0 +1,104 @@
+# Shakti Runnable MVP build and test report
+
+Date: 2026-07-22
+Language: C99
+Compiler flags: `-std=c99 -Wall -Wextra -Wpedantic -Werror -O2`
+Eden status: OPEN
+
+## Commands executed
+
+```sh
+make clean
+make test
+./shakti --check
+./shakti --demo
+./shakti
+```
+
+The interactive run set School to Pass 4 and entered `+` ten consecutive times.
+
+## Test results
+
+```text
+All Shakti C99 tests passed.
+Manifest, ledger, builder, and runtime integration passed.
+Loop, reflection, interrupt, and resume integration passed.
+Foundation, counting, and alphabet seed generation passed.
+Runnable startup, Pass 1 demo, and ten-streak School drill passed.
+```
+
+## Startup result
+
+```text
+Implemented data: 1033/1033 checks = 100%.
+Verified stones: 282/282.
+Complete tablets: 7.
+Required gaps: text=0, written_text=0, sound=0, visual=0.
+Optional Foundation sounds deferred: 33.
+Future planned tablets: 10.
+Eden lock ready: no.
+Runnable beginning: YES.
+```
+
+## Pass 1 demonstration
+
+The executable loaded `ascii_32_126_solo`, audited it at:
+
+```text
+285/285 = 100%
+```
+
+It rendered the first five 8x8 written-text stones and exited without changing School mastery.
+
+## School drill
+
+The executable:
+
+1. Restored School at Pass 1.
+2. Changed School to Pass 4 through the internal MCP.
+3. Rendered `+` from the 8x8 handwriting atlas.
+4. Accepted ten consecutive exact `+` entries.
+5. Reached `10/10 = 100% MASTERY`.
+6. Preserved `10 correct, 0 errors, 10 attempts`.
+
+## Fixed loader defect
+
+The first runnable demo originally stopped because the strict tablet loader required spoken sound files for Foundation punctuation even though Level 0 defines those sounds as optional.
+
+The loader now:
+
+- requires text, written text, and visual art for Foundation 0,
+- does not block Foundation loading on deferred punctuation audio,
+- continues to require validated sound for counting and alphabet tablets.
+
+The ledger and runtime now apply the same rule.
+
+## Process and allocation scan
+
+The C and header source contains no calls or references to:
+
+```text
+malloc
+calloc
+realloc
+free
+system
+popen
+fork
+exec
+spawn
+Python
+JavaScript
+PowerShell
+```
+
+The runtime is a single in-process C state machine. `/shakti_run/` is an internal dispatcher.
+
+## Artifacts
+
+- `CHECK_RUN_OUTPUT.txt`
+- `DEMO_RUN_OUTPUT.txt`
+- `DRILL_RUN_OUTPUT.txt`
+- `docs/SINGLE_PROCESS_BOUNDARY.md`
+
+No Eden lock was applied.
